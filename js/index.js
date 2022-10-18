@@ -30,7 +30,7 @@ function isCollide(snakeArr){
             return true;
         }
         // if you collide into the wall
-        if(snakeArr[i].x >= 18 || snakeArr[0].x <= 0 && snakeArr[i].y >= 18 || snakeArr[0].y <= 0){
+        if(snakeArr[i].x >= 18 || snakeArr[0].x <= 0 || snakeArr[i].y >= 18 || snakeArr[0].y <= 0){
             return true;
         }
     }
